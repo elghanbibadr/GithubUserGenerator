@@ -1,4 +1,38 @@
 @import 'partials/variabels';
 @import 'partials/reset';
-@import 'partials/typography';
 @import 'partials/mixins';
+@import 'partials/typography';
+
+
+body{
+    height: 100vh;
+    background-color: $bg-dark;
+    padding: 2rem ;
+}
+
+.container{
+    border: 2px solid #fff;
+    &__header{
+        color: white;
+
+        &-titleBox{
+           display: flex;
+           justify-content: space-between;
+
+
+        }
+    }
+
+    .header__togglerBox{
+        display: flex;
+        align-items: center;
+
+        p{
+         text-transform: uppercase;
+         margin-right: 10px;
+         font-weight:bold ;
+        }
+    }
+
+    
+}

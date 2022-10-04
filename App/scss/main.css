@@ -347,4 +347,60 @@ template {
 body {
   font-family: 'Space Mono', monospace;
 }
+
+p {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p, h1, h2, h3 {
+  letter-spacing: 0.2px;
+}
+
+body {
+  height: 100vh;
+  background-color: #141c2f;
+  padding: 2rem;
+}
+
+.container {
+  border: 2px solid #fff;
+}
+
+.container__header {
+  color: white;
+}
+
+.container__header-titleBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .header__togglerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header__togglerBox p {
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
