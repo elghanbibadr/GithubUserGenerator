@@ -366,14 +366,9 @@ p, h1, h2, h3 {
   letter-spacing: 0.2px;
 }
 
-body {
-  height: 100vh;
-  background-color: #141c2f;
-  padding: 2rem;
-}
-
 .container {
   border: 2px solid #fff;
+  height: 100%;
 }
 
 .header {
@@ -402,5 +397,72 @@ body {
   text-transform: uppercase;
   margin-right: 10px;
   font-weight: bold;
+}
+
+body {
+  height: 100vh;
+  background-color: #141c2f;
+  padding: 2rem;
+}
+
+.searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1f2a48;
+  border-radius: 10px;
+  margin-block: 2rem;
+  padding: 1rem;
+}
+
+.searchBar__icon {
+  height: 22px;
+  width: 22px;
+}
+
+.searchBar__input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  right: -1rem;
+  width: 80%;
+}
+
+.searchBar__input::-webkit-input-placeholder {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.searchBar__input:-ms-input-placeholder {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.searchBar__input::-ms-input-placeholder {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.searchBar__input::placeholder {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.searchBar__btn {
+  background-color: #067afc;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 13px 10px;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=main.css.map */
