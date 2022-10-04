@@ -376,11 +376,11 @@ body {
   border: 2px solid #fff;
 }
 
-.container__header {
+.header {
   color: white;
 }
 
-.container__header-titleBox {
+.header__titleBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -389,7 +389,7 @@ body {
           justify-content: space-between;
 }
 
-.container .header__togglerBox {
+.header__togglerBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,7 +398,7 @@ body {
           align-items: center;
 }
 
-.container .header__togglerBox p {
+.header__togglerBox p {
   text-transform: uppercase;
   margin-right: 10px;
   font-weight: bold;

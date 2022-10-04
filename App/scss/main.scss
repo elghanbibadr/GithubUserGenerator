@@ -12,18 +12,16 @@ body{
 
 .container{
     border: 2px solid #fff;
-    &__header{
+}
+.header{
         color: white;
 
-        &-titleBox{
+        &__titleBox{
            display: flex;
            justify-content: space-between;
-
-
-        }
     }
 
-    .header__togglerBox{
+    &__togglerBox{
         display: flex;
         align-items: center;
 
@@ -34,5 +32,4 @@ body{
         }
     }
 
-    
 }
