@@ -16,6 +16,13 @@ h1{
     font-size: 1.5rem;
 }
 
+h2{
+    font-size: 1rem;
+    @include desktop{
+        font-size: 1.2rem;
+    }
+}
+
 p,h1,h2,h3{
     letter-spacing:0.2px;
 }

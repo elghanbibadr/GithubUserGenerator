@@ -3,7 +3,7 @@
 @import 'partials/mixins';
 @import 'partials/typography';
 @import 'partials/header';
- @import 'partials/searchBar.scss';
+@import 'partials/searchBar';
 
 body{
     height: 100vh;
@@ -12,3 +12,50 @@ body{
 }
 
 
+.user{
+    height: 60vh;
+    border-radius: $borderRadius;
+    background-color: $contentBg-dark;
+    padding: 1.3rem;
+    color: white;
+    &__header{
+        display: flex;
+    }
+
+    &__image{
+        margin-right: 1rem;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    &__name{
+        &-link{
+            display: inline-block;
+           text-decoration: none;
+           color: $searchBtn;
+           margin-block: 6px;
+        }
+    }
+
+    &__bio{
+        margin:  2rem 1rem;
+    }
+
+    &__desc{
+        background-color: $bg-dark;
+        padding:1.5rem 0.8rem;
+        border-radius: $borderRadius;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__repo{
+        & :first-child{
+            margin-bottom:10px;
+        }
+        .repo-number{
+            font-weight: bold;
+        }
+    }
+}
