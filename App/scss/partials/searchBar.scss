@@ -1,0 +1,39 @@
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $contentBg-dark;
+    border-radius: 10px;
+    margin-block: 2rem ;
+    padding: 1rem;
+
+    &__icon{
+        height: 22px;
+        width: 22px;
+    }
+
+    &__input{
+        background-color: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+        right: -1rem;
+        width: 80%;
+
+        &::placeholder { 
+            color: white;
+           font-size: 0.8rem;
+          }
+    }
+
+    &__btn{
+        background-color: $searchBtn;
+        border-radius: 10px;
+        border: 0;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        padding:  13px 10px;
+        text-transform: capitalize;
+    }
+}
