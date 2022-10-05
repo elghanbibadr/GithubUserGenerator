@@ -102,6 +102,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
@@ -475,13 +479,11 @@ p, h1, h2, h3 {
 }
 
 body {
-  height: 100vh;
   background-color: #141c2f;
   padding: 2rem;
 }
 
 .user {
-  height: 60vh;
   border-radius: 10px;
   background-color: #1f2a48;
   padding: 1.3rem;
@@ -529,5 +531,29 @@ body {
 
 .user__repo .repo-number {
   font-weight: bold;
+}
+
+.user__media {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.user__media-link a {
+  color: #c8c7c8;
+  font-weight: bold;
+  margin-left: 0.6rem;
+}
+
+.user__media-link .svg-container {
+  display: inline-block;
+  height: 40px;
+  width: 30px;
+}
+
+.user__media-link svg {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  width: 80%;
+  height: 50%;
 }
 /*# sourceMappingURL=main.css.map */
