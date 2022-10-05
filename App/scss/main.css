@@ -483,6 +483,10 @@ body {
   padding: 2rem;
 }
 
+.hidden {
+  display: none;
+}
+
 .user {
   border-radius: 10px;
   background-color: #1f2a48;
